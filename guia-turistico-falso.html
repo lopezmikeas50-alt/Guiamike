@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guía Turístico - Mike López</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: Arial, sans-serif; background: #ecf0f1; margin: 0; }
+        .header { background: #2ecc71; color: white; padding: 20px 0; text-align: center; }
+        .container { background: #fff; max-width: 600px; margin: 30px auto; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .photo { width: 120px; border-radius: 50%; margin-bottom: 12px; }
+        .warning { color: #e74c3c; font-weight: bold; margin-bottom: 16px; text-align: center; }
+        .btn { background: #2ecc71; color: white; padding: 12px 24px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; }
+        .btn:hover { background: #27ae60; }
+        .contact-form input, .contact-form textarea { width: 100%; padding: 8px; margin: 6px 0 12px; border-radius: 5px; border: 1px solid #bdc3c7; }
+        .contact-form label { font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Mike López - Guía Turístico Profesional</h1>
+        <p style="font-size: 1.2em;">¡Descubre destinos increíbles conmigo!</p>
+    </div>
+    <div class="container">
+        <div class="warning">
+            *Esta página es de ejemplo y no representa una oferta real de servicios.*
+        </div>
+        <img class="photo" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Guía turístico foto">
+        <h2>Sobre mí</h2>
+        <p>
+            ¡Bienvenido! Soy Mike López, guía turístico con más de 10 años de experiencia. Te acompaño a explorar México y vivir aventuras únicas.
+        </p>
+        <h3>Destinos Populares</h3>
+        <ul>
+            <li>Cancún y Riviera Maya</li>
+            <li>CDMX y Teotihuacán</li>
+            <li>Chiapas</li>
+            <li>Oaxaca</li>
+            <li>Sierra Tarahumara</li>
+        </ul>
+        <h3>¡Reserva tu tour!</h3>
+        <form class="contact-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" placeholder="tu@email.com">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿Qué destino te interesa?"></textarea>
+            <button class="btn" type="submit">Enviar solicitud</button>
+        </form>
+    </div>
+</body>
+</html>
